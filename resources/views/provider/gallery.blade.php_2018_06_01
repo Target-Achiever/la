@@ -1,0 +1,83 @@
+@extends('layouts.provider_temp')
+
+@section('content')
+
+         <!-- Content Wrapper. Contains page content -->
+         <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+               <!-- SELECT2 EXAMPLE -->
+               <div class="box provider_gallery">
+                <div class="box-header">
+                    <div class="row">  
+                        <div class="col-md-4">  
+                          <h3  style="margin: 0 0 20px;">Gallery</h3>
+                        </div>  
+                        <div class="col-md-8">
+                          @if($galleryCount <= 15) <!-- provider maximum upload limit 15-->
+                          <a href="{{ url('provider/gallery/create') }}" class="btn btn-primary pull-right">Add</a>
+                          @else
+                            <div class="alert alert-info">
+                              <strong>Info!</strong> Your maximum upload have reached.
+                            </div>
+                          @endif
+                        </div>
+                    </div>
+                        {!! displayAlert() !!}
+                        
+                        @if (count($errors) > 0)
+                             <div class = "alert alert-danger">
+                        <ul>
+                        @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                        @endforeach
+                        </ul>
+                        </div>
+                        @endif
+
+
+                <div class="table_box">
+                  <table id="example1" class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th>S.no</th>
+                          <th>Image</th>
+                          <th>Status</th>
+                          <th>Action</th>                                
+                        </tr>
+                      </thead>
+                      <tbody>
+                      @foreach($gallery as $key => $image)  
+                        <tr>
+                          <td>{{$key+1}}</td>
+                          <td><a href="{{url('uploads/gallery').'/'.$image->file_name}}" target="_blank">{{ $image->file_name }} </a>
+                              </td>
+                          <td>{{ $image->status == 1 ? 'Active' : 'In-active' }}</td>
+                          <td class="manage-service-action">
+                            <span><i class="fa fa-edit"> <a href="{{url('/provider/gallery/'.$image->id).'/'.'edit'}}">edit</a></i></span>
+                              <span><i class="fa fa-trash destroy-element" data-service="{{$image->id}}"> </i> <a href="javascript:void(0)" class="destroy-element" data-service="">Delete</a> </span>
+                            {!! Form::open(['url' => 'provider/gallery/'.$image->id,'files' => true ,  'method' => 'DELETE' ,'id' => 'delete-form-'.$image->id]) !!}
+
+                            {!! Form::close() !!}
+                          </td>                               
+                        </tr>
+                        @endforeach                                     
+                     </tbody>
+                  </table>                        
+               </div>
+
+            </section>
+
+            <!-- /.content -->
+         </div>
+         <!-- /.content-wrapper -->         
+         <!-- /.control-sidebar -->
+         <!-- Add the sidebar's background. This div must be placed
+            immediately after the control sidebar -->
+         <div class="control-sidebar-bg"></div>
+      <!-- </div> -->
+      <!-- ./wrapper -->
+        <!-- Modal -->
+
+      @endsection
+
