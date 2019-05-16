@@ -1,0 +1,80 @@
+[30-May-2018 16:38:46 Asia/Calcutta] PHP Fatal error:  Cannot declare class App\Http\Middleware\CheckAppPaymentRequest, because the name is already in use in /home/t4r6zs5rdewc/public_html/dev/app/Http/Middleware/CheckAdPaymentRequest.php on line 11
+[07-Jun-2018 16:24:39 Asia/Calcutta] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home/t4r6zs5rdewc/public_html/dev/app/Http/Controllers/Prescriber/PrescriberController.php on line 20
+[07-Jun-2018 16:24:47 Asia/Calcutta] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home/t4r6zs5rdewc/public_html/dev/app/Http/Controllers/Prescriber/PrescriberController.php on line 20
+[11-Jun-2018 18:01:46 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/4f6c1a50d4116aa29fcc0bde7060cac7055d726f.php on line 0
+[11-Jun-2018 18:02:24 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/5b9b0b708f1d0eea933e8fa23dd305dcc6865a7e.php on line 0
+[11-Jun-2018 18:02:30 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/5b9b0b708f1d0eea933e8fa23dd305dcc6865a7e.php on line 0
+[11-Jun-2018 18:02:39 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/ea277f026150a6f425dd777dee5ae096e0f8b2e4.php on line 0
+[12-Jun-2018 06:50:48 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in /home/t4r6zs5rdewc/public_html/dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php on line 45
+[12-Jun-2018 06:57:47 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in /home/t4r6zs5rdewc/public_html/dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php on line 45
+[20-Jun-2018 12:56:50 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/1d604ac3e037ce12e77be78e918718413c0ed39c.php on line 0
+[20-Jun-2018 12:56:56 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/1d604ac3e037ce12e77be78e918718413c0ed39c.php on line 0
+[20-Jun-2018 12:56:58 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/1d604ac3e037ce12e77be78e918718413c0ed39c.php on line 0
+[20-Jun-2018 12:58:00 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/ea277f026150a6f425dd777dee5ae096e0f8b2e4.php on line 0
+[20-Jun-2018 12:58:22 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/1d604ac3e037ce12e77be78e918718413c0ed39c.php on line 0
+[20-Jun-2018 13:01:25 Asia/Calcutta] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: error (View: /home/t4r6zs5rdewc/public_html/dev/resources/views/layouts/alert.blade.php) in /home/t4r6zs5rdewc/public_html/dev/storage/framework/views/1d604ac3e037ce12e77be78e918718413c0ed39c.php on line 0
+[21-Jun-2018 16:12:28 Asia/Calcutta] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php:30
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/t4r6zs5rd...', 30, Array)
+#1 /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php(30): implode(',<br>', Array)
+#2 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/t4r6zs5rd...')
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/t4r6zs5rd...', Array)
+#4 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/t4r6zs5rd...', Array)
+#5 /home/t4r6zs5rdewc/public_html/vendor/laravel/fra in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[21-Jun-2018 16:12:28 Asia/Calcutta] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[21-Jun-2018 16:12:34 Asia/Calcutta] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php:30
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/t4r6zs5rd...', 30, Array)
+#1 /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php(30): implode(',<br>', Array)
+#2 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/t4r6zs5rd...')
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/t4r6zs5rd...', Array)
+#4 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/t4r6zs5rd...', Array)
+#5 /home/t4r6zs5rdewc/public_html/vendor/laravel/fra in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[21-Jun-2018 16:12:34 Asia/Calcutta] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[21-Jun-2018 16:13:39 Asia/Calcutta] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php:30
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/t4r6zs5rd...', 30, Array)
+#1 /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php(30): implode(',', Array)
+#2 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/t4r6zs5rd...')
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/t4r6zs5rd...', Array)
+#4 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/t4r6zs5rd...', Array)
+#5 /home/t4r6zs5rdewc/public_html/vendor/laravel/framewo in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[21-Jun-2018 16:13:39 Asia/Calcutta] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/t4r6zs5rdewc/public_html/storage/framework/views/30f65146149f6064fb0640f258367f602d0432c0.php on line 30
+[22-Jun-2018 15:49:39 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/t4r6zs5rdewc/public_html/app/Helper.php on line 29
+[22-Jun-2018 15:49:41 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/t4r6zs5rdewc/public_html/app/Helper.php on line 29
+[29-Jun-2018 15:00:57 Asia/Calcutta] PHP Fatal error:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Exceptions\\...', Array)
+#2 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Exceptions\\...', Array)
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Exceptions\\...', Array)
+#4 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\Container->Illuminate\Containe in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734
+[16-Jul-2018 15:56:42 Asia/Calcutta] PHP Fatal error:  Cannot use App\Services as Services because the name is already in use in /home/t4r6zs5rdewc/public_html/app/Http/Controllers/Admin/ManageProviders.php on line 25
+[05-Oct-2018 14:44:04 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function flash() on null in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php:44
+Stack trace:
+#0 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(90): Illuminate\Http\RedirectResponse->with(Array, 500, Array)
+#1 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(115): App\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\Debug\Exception\FlattenException))
+#2 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(107): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home/t4r6zs5rdewc/public_html/vendor/ in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 44
+[05-Oct-2018 14:44:13 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function flash() on null in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php:44
+Stack trace:
+#0 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(90): Illuminate\Http\RedirectResponse->with(Array, 500, Array)
+#1 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(115): App\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\Debug\Exception\FlattenException))
+#2 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(107): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home/t4r6zs5rdewc/public_html/vendor/ in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 44
+[05-Oct-2018 14:45:56 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function flash() on null in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php:44
+Stack trace:
+#0 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(90): Illuminate\Http\RedirectResponse->with(Array, 500, Array)
+#1 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(115): App\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\Debug\Exception\FlattenException))
+#2 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(107): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home/t4r6zs5rdewc/public_html/vendor/ in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 44
+[05-Oct-2018 14:49:41 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function flash() on null in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php:44
+Stack trace:
+#0 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(90): Illuminate\Http\RedirectResponse->with(Array, 500, Array)
+#1 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(115): App\Exceptions\Handler->convertExceptionToResponse(Object(Symfony\Component\Debug\Exception\FlattenException))
+#2 /home/t4r6zs5rdewc/public_html/app/Exceptions/Handler.php(85): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(107): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home/t4r6zs5rdewc/public_html/vendor/ in /home/t4r6zs5rdewc/public_html/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 44
